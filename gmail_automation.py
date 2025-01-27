@@ -17,7 +17,7 @@ chrome_options = ChromeOptions()
 chrome_options.add_argument("--disable-infobars")
 
 # WebDriver service
-service = ChromeService('chromedriver.exe')
+service = ChromeService('/data/data/com.termux/files/home/chromedriver')
 driver = webdriver.Chrome(options=chrome_options)
 
 french_first_names = [
